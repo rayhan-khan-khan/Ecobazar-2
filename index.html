@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecobazar</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.10.5/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header >
+        <section class="max-w-7xl mx-auto px-2">
+          <div class="flex flex-col md:flex-row justify-between border-b border-b-2 pb-3 mt-1">
+            <div class="">
+                <p class="text-[#666] text-[16px] ">
+                    <i class="fa-solid fa-location-dot"></i>
+                    Store Location: Lincoln- 344, Illinois, Chicago, USA
+                </p>
+              </div>
+              <div class="flex mt-4 md:mt-0">
+                <select class="text-gray-600 text-[15px]">
+                    <option>Eng</option>
+                </select>
+                <select class="text-gray-600 text-[15px]  border-r border-gray-400 border-r-2 ">
+                    <option>USD</option>
+                </select>
+                <div class="flex gap-2 ml-4 text-[#666] font-semibold">
+                  <p class="text-[15px]">Sing In</p> 
+                  <p>/</p>
+                  <p class="text-[15px]">Sing Up</p>
+                </div>
+              </div>
+         </div>
+         <div class="flex flex-col md:flex-row justify-between  items-center mt-5">
+          <div class="flex gap-2 ">
+            <img class="w-[30px]" src="images/logo.jpg" alt="">
+            <h3 class="text-3xl text-black font-bold">Ecobazar</h3>
+          </div>
+            <div class="relative mt-4 md:mt-0">
+              <input type="text" class=" border border md:border-2 border-[#00B207] py-[7px] pl-10 md:w-[300px] rounded text-[15px] font-semibold" placeholder="Search...">
+              <button class="py-[8px] rounded-r -ml-4 bg-[#00B207] px-4 font-semibold text-white">Search</button>
+              <i class="fa-solid absolute left-4 fa-magnifying-glass top-1/3 text-[#00B207]"></i>
+            </div>
+          <div class="flex items-center">
+            <i class="fa-regular fa-heart text-3xl border-r-2 pr-4 border-gray-400 "></i> 
+            <div class="flex items-center gap-4">
+              <i class="fa-solid fa-bag-shopping text-3xl ml-4"></i> 
+              <div>
+                <p class="text-[15px] font-semibold text-gray-500">Shopping cart:</p>
+                <p class="text-[18px] font-semibold">$57.00</p>
+              </div>
+            </div>      
+          </div>
+         </div>
+        </section>
+        <!-- navbar -->
+        <section class="bg-black text-white bg-opacity-70	mt-4">
+          <div class="navbar justify-between	 max-w-7xl mx-auto pr-4 md:pr-0">
+            <div class="">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                </div>
+                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-black text-white bg-opacity-70  w-36">
+                  <li>
+                    <details>
+                      <summary>Home</summary>
+                      <ul class="p-2">
+                        <li><a>I Love You Jakiya Sultana</a></li>
+                        <li class="text-sm"><a></a></li>
+                      </ul>
+                    </details>
+                  </li>
+                  <li>
+                    <details>
+                      <summary>Shop</summary>
+                      
+                    </details>
+                  </li>
+                  <li>
+                    <details>
+                      <summary>Pages</summary>         
+                    </details>
+                  </li>
+                  <li>
+                    <details>
+                      <summary>Blog</summary>
+                    </details>
+                  </li>
+                <li><a>About Us</a></li>
+                <li><a>Contact Us</a></li>
+                </ul>
+              </div>
+              <div class="navbar-center hidden lg:flex">
+                <ul class="menu font-semibold menu-horizontal px-1">
+                  <li>
+                    <details>
+                      <summary>Home</summary>
+                      <ul class="p-2">
+                        <li><a></a></li>
+                        <li><a></a></li>
+                      </ul>
+                    </details>
+                  </li>
+                  <li>
+                    <details>
+                      <summary>Shop</summary>
+                      <ul class="p-2">
+                        <li><a></a></li>
+                        <li><a></a></li>
+                      </ul>
+                    </details>
+                  </li>
+                  <li>
+                    <details>
+                      <summary>Pages</summary>
+                      <ul class="p-2">
+                        <li><a></a></li>
+                        <li><a></a></li>
+                      </ul>
+                    </details>
+                  </li>
+                  <li>
+                    <details>
+                      <summary>Blog</summary>
+                      <ul class="p-2">
+                        <li><a></a></li>
+                        <li><a></a></li>
+                      </ul>
+                    </details>
+                  </li>
+                <li><a>About Us</a></li>
+                <li><a>Contact Us</a></li>
+                </ul>
+              </div>
+            </div>
+          
+            <div class="items-center gap-4">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
+                <path d="M17.4359 4.375C18.9193 4.77396 20.2718 5.55567 21.358 6.64184C22.4441 7.72801 23.2258 9.08051 23.6248 10.5639" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M16.5306 7.75687C17.4205 7.99625 18.2318 8.46521 18.8833 9.11678C19.5349 9.76835 20.0039 10.5797 20.2433 11.4695" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M10.115 13.6517C11.0224 15.5074 12.5263 17.0049 14.3859 17.9042C14.522 17.9688 14.6727 17.9966 14.8229 17.9851C14.9731 17.9736 15.1178 17.9231 15.2425 17.8386L17.9812 16.0134C18.1022 15.9326 18.2414 15.8833 18.3862 15.8698C18.5311 15.8564 18.677 15.8793 18.8107 15.9364L23.9339 18.1326C24.1079 18.2065 24.2532 18.335 24.3479 18.4987C24.4426 18.6623 24.4815 18.8523 24.4589 19.04C24.2967 20.307 23.6784 21.4714 22.7196 22.3154C21.7608 23.1593 20.5273 23.6249 19.25 23.625C15.3049 23.625 11.5214 22.0578 8.73179 19.2682C5.94218 16.4786 4.375 12.6951 4.375 8.75C4.37512 7.47279 4.84074 6.23941 5.68471 5.28077C6.52867 4.32213 7.6931 3.70396 8.96 3.542C9.14771 3.51936 9.33769 3.55832 9.50134 3.653C9.66499 3.74769 9.79345 3.89298 9.86738 4.067L12.0654 9.1945C12.1219 9.32698 12.1449 9.47137 12.1322 9.61485C12.1195 9.75833 12.0716 9.89647 11.9928 10.017L10.1728 12.7977C10.0901 12.923 10.0414 13.0675 10.0313 13.2171C10.0212 13.3668 10.05 13.5165 10.115 13.6517V13.6517Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              <a>(219) 555-0114</a>
+            </div>
+          </div>
+        </section>
+        <!-- Banner -->
+         <section>
+          <div>
+            <img  src="" alt="">
+          </div>
+         </section>
+      </header>
+      <main></main>
+      <footer></footer>
+</body>
+</html>
